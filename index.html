@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fontawesome.com/icons/location-dot?f=classic&s=solid' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+</style>
+<body>
+    <div class="wrapper">
+        <header class="bx bx-left-arrow-alt" id="btn-two">Weather app</header>
+        <section class="input-part" id="input-part">
+            <input type="text" placeholder="Enter city name" spellcheck="false" id="input-field"><br>
+            <button type="button" id="btn">Get weather data</button>
+            <div class="use">
+                <p>This web application is very <br>help full for user to check <br>the weather of country or <br>any reign</p>
+            </div>
+            <footer><h3>@Nouman aziz</h3></footer>
+        </section>
+        <section class="output-part" id="output-part">
+            <div class="tem">
+                <div class="ima">
+                    <img src="#" alt=""><br>
+                </div>
+               <div class="temp">
+                <i class="fa-solid fa-temperature-low" id="myi"></i>
+                <h5 id="temp_c"></h5>
+                <i class="fa-solid fa-temperature-low" id="myi2"></i>
+                <h5 id="temp_f"></h5>
+               </div>
+            </div>
+            <p class="info-txt"></p>
+            <div class="data">
+                <div class="line">
+                    <div class="loc">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3 id="location"></h3>
+                    </div>
+                    <div class="reign">
+                        <i class="fa-solid fa-person-pregnant" id="icon"></i>
+                        <h3 id="city"></h3>
+                    </div>
+                </div>
+                <div class="date_time">
+                    <i class="fa-regular fa-clock"></i>
+                    <p id="time"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
