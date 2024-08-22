@@ -64,6 +64,9 @@ function myinput(){
                 else if(image.code==1240){
                     newimg.src=`https://cdn.weatherapi.com/weather/64x64/day/353.png`;
                 }
+                else if(image.code==1030){
+                    newimg.src=`https://cdn.weatherapi.com/weather/64x64/day/143.png`
+                }
             }
             else{
                 if(image.code==1000){
@@ -86,6 +89,9 @@ function myinput(){
                 }
                 else if(image.code==1240){
                     newimg.src=`https://cdn.weatherapi.com/weather/64x64/night/353.png`;
+                }
+                else if(image.code==1030){
+                    newimg.src=`https://cdn.weatherapi.com/weather/64x64/night/143.png`
                 }
             }
             let infoTxt=document.querySelector('.info-txt');
@@ -134,6 +140,9 @@ function myinput(){
             else if(image.code==1240){
                 newimg.src=`https://cdn.weatherapi.com/weather/64x64/day/353.png`;
             }
+            else if(image.code==1030){
+                newimg.src=`https://cdn.weatherapi.com/weather/64x64/day/143.png`
+                }
         }
         else{
             if(image.code==1000){
@@ -157,6 +166,9 @@ function myinput(){
             else if(image.code==1240){
                 newimg.src=`https://cdn.weatherapi.com/weather/64x64/night/353.png`;
             }
+            else if(image.code==1030){
+                newimg.src=`https://cdn.weatherapi.com/weather/64x64/night/143.png`
+                }
         }
         let infoTxt=document.querySelector('.info-txt');
         infoTxt.innerHTML=image.text;
